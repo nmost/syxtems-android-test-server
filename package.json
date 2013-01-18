@@ -1,16 +1,12 @@
 {
   "name": "test-android-server",
   "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "start": "app.js"
-  },
   "dependencies": {
-    "express": "*",
-    "mongoose": "*"
+    "express": "3.0.x",
+    "mongoose": "3.5.x"
   },
-  "engines" {
-    "node": "0.8.16",
-    "npm": "1.1.69"
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
   }
 }
