@@ -7,6 +7,10 @@
   },
   "dependencies": {
     "express": "*",
-    "mongoose": "*"
+    "mongoose": "*",
+  },
+  "engines" {
+    "node": "0.8.16",
+    "npm": "1.1.69"
   }
 }

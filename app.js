@@ -39,7 +39,9 @@ function postPerson(req,res,next) {
   person.last_name = req.body.last_name;
   person.is_awesome = req.body.is_awesome;
   person.save(function(){
-    res.send("success");
+    Person.find().limit(100).execFind(function(arr,data){
+     res.send(data);
+    });
   });
 }
 
